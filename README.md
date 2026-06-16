@@ -62,6 +62,11 @@ sent, keyed by a random id kept in extension storage so re-submitting just updat
 entry. No history, titles, or account data leaves your device. It's entirely optional and
 there's nothing to submit unless you click the button.
 
+> **Note — that leaderboard/landing site is a separate repo.** This repo
+> (`netflix-watchtime`, **with a hyphen**) is the browser extension. The website and
+> leaderboard API it talks to live in `zlef-fr/netflixwatchtime` (**no hyphen**). Same
+> name minus a hyphen — don't conflate the two.
+
 ## A note on durability
 
 This relies on Netflix's internal (undocumented) account APIs. If Netflix changes their
